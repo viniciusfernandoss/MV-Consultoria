@@ -1,0 +1,48 @@
+.bg-faq{
+    background-color: #F2F4F0;
+}
+
+.content-titulo-faq{
+    font-family: var(--fonte-Poppins);
+}
+.titulo1-faq{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #8FA57F;
+}
+.titulo2-faq{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5rem;
+    color: #191E15;
+}
+
+
+
+.accordion{
+    --bs-accordion-active-bg: #E5EAE1;
+    --bs-accordion-active-color: #000;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: #E5EAE1;
+    --bs-accordion-border-width: 0px;
+}   
+ 
+   
+
+
+.accordion-button.collapsed{
+    padding: 2.5%;
+    font-size: 1.2rem;
+}
+.accordion-collapse{
+    background-color: #dce2d8;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    padding: 2.5%;
+    font-size: 1.2rem;
+}
+
+.accordion-body{
+    font-size: 1.1rem;
+}

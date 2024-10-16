@@ -1,0 +1,51 @@
+footer{
+    background-color: #0C0F0B;
+}
+
+/* 
+======================================
+            Footer Menu
+======================================
+*/
+.content1-footer-menu li{
+    list-style: none;
+}
+.content1-footer-menu a{
+    text-decoration: none;
+    font-family: var(--fonte-Poppins);
+    font-weight: 600;
+    color: #96AB87;
+}
+.content1-footer-menu a:hover{
+    color: #F2F4F0;
+}
+
+
+
+.content2-footer-menu h2, .content3-footer-menu h2, .content1-footer-menu h2{
+    font-family: var(--fonte-Poppins);
+    color: white;
+    font-weight: 600;
+}
+.content2-footer-menu p, .content3-footer-menu p{
+    font-family: var(--fonte-SegoeUi);
+    color: white
+}
+.redes-footer-menu a{
+    text-decoration: none;
+    color: white
+}
+.redes-footer-menu a:hover{
+    color: #96AB87;
+}
+
+
+
+/* 
+=========================================
+            Footer Copyright
+=========================================
+*/
+#footer-copyright p{
+    color: #858384;
+}

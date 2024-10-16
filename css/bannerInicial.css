@@ -1,0 +1,26 @@
+.carousel-caption{
+    top: 0;
+}
+.carousel-caption h2{
+    font-family: var(--fonte-Poppins);
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.btns-banner-inicial a{
+    text-decoration: none;
+}
+
+.btn-saiba-mais-banner-inicial{
+    font-family: var(--fonte-SegoeUi);
+    background-color: #65A30D;
+    border: 1px solid #65A30D;
+    color: white;
+    font-weight: 600;
+}
+.btn-fazer-contato-banner-inicial{
+    font-family: var(--fonte-SegoeUi);
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+}

@@ -1,0 +1,16 @@
+.nav-link{
+    color: #96AB87;
+    font-size: 1.2rem;
+    font-family: var(--fonte-Poppins);
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #323C2A;
+}
+.btn-fazer-contato{
+    font-family: var(--fonte-SegoeUi);
+    color: #65A30D;
+    text-decoration: none;
+    border: 2px solid #65A30D;
+    font-weight: 600;
+}
