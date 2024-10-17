@@ -6,6 +6,10 @@
     font-weight: 800;
     font-size: 4rem;
 }
+.carousel-caption p{
+    font-size: 1rem;
+    width: 75%;
+}
 
 .btns-banner-inicial a{
     text-decoration: none;
@@ -17,10 +21,38 @@
     border: 1px solid #65A30D;
     color: white;
     font-weight: 600;
+    transition: 0.5s;
 }
+.btn-saiba-mais-banner-inicial:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #65A30D;
+}
+
 .btn-fazer-contato-banner-inicial{
     font-family: var(--fonte-SegoeUi);
     color: white;
     font-weight: 600;
     border: 1px solid white;
+    transition: 0.5s;
+}
+.btn-fazer-contato-banner-inicial:hover{
+    background-color: #65A30D;
+    border: 1px solid #65A30D;
+}
+
+@media (max-width: 992px) {
+    .carousel-caption h2{
+        font-size: 2rem;
+    }
+    .carousel-caption p{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .btn-saiba-mais-banner-inicial{
+        font-size: 1rem;
+    }
+    .btn-fazer-contato-banner-inicial{
+        font-size: 1rem;
+    }
 }

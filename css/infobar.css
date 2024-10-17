@@ -12,3 +12,10 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
+.redes-info-bar a{
+    transition: 0.5s;
+}
+.redes-info-bar a:hover{
+    color: #65A30D;
+}

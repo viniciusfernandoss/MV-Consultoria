@@ -3,9 +3,11 @@
     font-size: 1.2rem;
     font-family: var(--fonte-Poppins);
     font-weight: 600;
+    border-bottom: 2px solid transparent;
 }
 .nav-link:hover{
     color: #323C2A;
+    border-bottom: 2px solid #323C2A;
 }
 .btn-fazer-contato{
     font-family: var(--fonte-SegoeUi);
@@ -13,4 +15,24 @@
     text-decoration: none;
     border: 2px solid #65A30D;
     font-weight: 600;
+    animation: pulse 1.5s infinite;
+}
+.btn-fazer-contato:hover{
+    color: white;
+    background-color: #65A30D;
+}
+
+
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 #65A30D;
+    }
+    70%{
+        box-shadow: 0 0 0 25px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
 }

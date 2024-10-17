@@ -46,3 +46,9 @@
 .accordion-body{
     font-size: 1.1rem;
 }
+
+@media (max-width: 992px){
+    .titulo2-faq{
+        line-height: 3.5rem;
+    }
+}

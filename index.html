@@ -56,7 +56,40 @@
                             Barra de Navegações
         ==================================================================
         -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar d-none d-lg-block navbar-expand-lg navbar-light bg-light">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand card-animation-top1" href="index.html">
+                    <img src="img/logo-header-MVConsultoria.webp" alt="logo MV Consultoria">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link card-animation-top2" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link card-animation-top3" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link card-animation-top4" href="#Sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link card-animation-top5" href="#perguntasErespostas">Perguntas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link card-animation-top6" href="#footer-menu">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="btn-fazer-contato card-animation-top7 d-none d-lg-inline-block py-2 px-3 rounded-3">
+                    Fazer Contato
+                </a>
+            </div>
+        </nav>
+        <!-- Barra de Navegação Mobile -->
+        <nav class="navbar d-block d-lg-none navbar-expand-lg navbar-light bg-light">
             <div class="container d-flex justify-content-between">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logo-header-MVConsultoria.webp" alt="logo MV Consultoria">
@@ -83,9 +116,6 @@
                         </li>
                     </ul>
                 </div>
-                <a href="#" class="btn-fazer-contato d-none d-lg-inline-block py-2 px-3 rounded-3">
-                    Fazer Contato
-                </a>
             </div>
         </nav>
 
@@ -147,22 +177,27 @@
                 <img
                     src="img/bg-slide1-cortada.webp"
                     alt="Barckground Carrocel 1"
-                    class="d-block w-100 img-fluid"
+                    class="d-none d-lg-block w-100 img-fluid"
                 >
-                <div class="carousel-caption d-flex flex-column text-start justify-content-center">
+                <img
+                    src="img/mobile-bg-slide1.webp"
+                    alt="Barckground Carrocel 1"
+                    class="d-block d-lg-none w-100 img-mobile"
+                >
+                <div class="carousel-caption card-animation7 d-flex flex-column text-start justify-content-center">
                    <h2>
                         Quem Somos
                    </h2>
-                   <p class="w-75">
+                   <p>
                         A <span class="fw-bold">MV Consultoria</span> oferece consultoria e assessoria especializada para empresas do setor de saúde, 
                         como clínicas, operadoras de saúde, seguradoras e hospitais. Nossa equipe conta com uma sólida 
                         experiência para apoiar seus desafios de gestão e operação.
                    </p>
                    <div class="btns-banner-inicial">
-                        <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-3 rounded-3 me-3">
+                        <a href="#" class="btn-saiba-mais-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3 me-3">
                             Saiba Mais
                         </a>
-                        <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-3 rounded-3">
+                        <a href="#" class="btn-fazer-contato-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3">
                             Fazer Contato
                         </a>
                    </div>
@@ -171,44 +206,54 @@
               <div class="carousel-item">
                 <img
                     src="img/bg-slide2-cortada.webp"
-                    class="d-block w-100"
-                    alt="..."
+                    alt="Barckground Carrocel 1"
+                    class="d-none d-lg-block w-100 img-fluid"
+                >
+                <img
+                    src="img/mobile-bg-slide2.webp"
+                    alt="Barckground Carrocel 1"
+                    class="d-block d-lg-none w-100 img-mobile"
                 >
                 <div class="carousel-caption d-flex flex-column text-start justify-content-center">
                     <h2>
                         Consultoria em Gestão
                     </h2>
-                    <p class="w-75">
+                    <p>
                         Oferecemos soluções personalizadas para otimizar a gestão da sua empresa, focando em eficiência e resultados. Nossa experiência em saúde garante uma visão estratégica adequada ao seu negócio.
                     </p>
                     <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-3 rounded-3 me-3">
+                         <a href="#" class="btn-saiba-mais-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3 me-3">
                              Saiba Mais
                          </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-3 rounded-3">
+                         <a href="#" class="btn-fazer-contato-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3">
                              Fazer Contato
                          </a>
                     </div>
-                 </div>
+                </div>
               </div>
               <div class="carousel-item">
                 <img
                     src="img/bg-slide3-cortada.webp"
-                    class="d-block w-100"
-                    alt="..."
+                    alt="Barckground Carrocel 1"
+                    class="d-none d-lg-block w-100 img-fluid"
+                >
+                <img
+                    src="img/mobile-bg-slide3.webp"
+                    alt="Barckground Carrocel 1"
+                    class="d-block d-lg-none w-100 img-mobile"
                 >
                 <div class="carousel-caption d-flex flex-column text-start justify-content-center">
                     <h2>
                         Otimização de Fluxos de Atividades
                     </h2>
-                    <p class="w-75">
+                    <p>
                         Com o know-how de especialistas, reestruturamos os fluxos operacionais para tornar seus processos mais ágeis e eficazes, garantindo maior produtividade e qualidade no atendimento.
                     </p>
                     <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-3 rounded-3 me-3">
+                         <a href="#" class="btn-saiba-mais-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3 me-3">
                              Saiba Mais
                          </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-3 rounded-3">
+                         <a href="#" class="btn-fazer-contato-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3">
                              Fazer Contato
                          </a>
                     </div>
@@ -217,21 +262,26 @@
               <div class="carousel-item">
                 <img
                     src="img/bg-slide4-cortada.webp"
-                    class="d-block w-100"
-                    alt="..."
+                    alt="Barckground Carrocel 1"
+                    class="d-none d-lg-block w-100 img-fluid"
+                >
+                <img
+                    src="img/mobile-bg-slide4.webp"
+                    alt="Barckground Carrocel 1"
+                    class="d-block d-lg-none w-100 img-mobile"
                 >
                 <div class="carousel-caption d-flex flex-column text-start justify-content-center">
                     <h2>
                         Identificação e Solução de Bottlenecks
                     </h2>
-                    <p class="w-75">
+                    <p>
                         Identificamos gargalos que impactam a performance da sua empresa e oferecemos soluções rápidas e eficazes para melhorar a eficiência operacional.
                     </p>
                     <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-3 rounded-3 me-3">
+                         <a href="#" class="btn-saiba-mais-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3 me-3">
                              Saiba Mais
                          </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-3 rounded-3">
+                         <a href="#" class="btn-fazer-contato-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3">
                              Fazer Contato
                          </a>
                     </div>
@@ -240,21 +290,26 @@
               <div class="carousel-item">
                 <img
                     src="img/bg-slide5-cortada.webp"
-                    class="d-block w-100"
-                    alt="..."
+                    alt="Barckground Carrocel 1"
+                    class="d-none d-lg-block w-100 img-fluid"
+                >
+                <img
+                    src="img/mobile-bg-slide5.webp"
+                    alt="Barckground Carrocel 1"
+                    class="d-block d-lg-none w-100 img-mobile"
                 >
                 <div class="carousel-caption d-flex flex-column text-start justify-content-center">
                     <h2>
                         Planejamento Estratégico
                     </h2>
-                    <p class="w-75">
+                    <p>
                         Desenvolvemos um planejamento estratégico alinhado aos objetivos da sua empresa, focando em crescimento sustentável e na ampliação da sua competitividade no setor de saúde.
                     </p>
                     <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-3 rounded-3 me-3">
+                         <a href="#" class="btn-saiba-mais-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3 me-3">
                              Saiba Mais
                          </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-3 rounded-3">
+                         <a href="#" class="btn-fazer-contato-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3">
                              Fazer Contato
                          </a>
                     </div>
@@ -263,21 +318,26 @@
               <div class="carousel-item">
                 <img
                     src="img/bg-slide6-cortada.webp"
-                    class="d-block w-100"
-                    alt="..."
+                    alt="Barckground Carrocel 1"
+                    class="d-none d-lg-block w-100 img-fluid"
+                >
+                <img
+                    src="img/mobile-bg-slide6.webp"
+                    alt="Barckground Carrocel 1"
+                    class="d-block d-lg-none w-100 img-mobile"
                 >
                 <div class="carousel-caption d-flex flex-column text-start justify-content-center">
                     <h2>
                         Posicionamento de Mercado
                     </h2>
-                    <p class="w-75">
+                    <p>
                         Ajudamos sua empresa a se posicionar estrategicamente no mercado de saúde, destacando seus diferenciais competitivos e fortalecendo sua presença no setor.
                     </p>
                     <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-3 rounded-3 me-3">
+                         <a href="#" class="btn-saiba-mais-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3 me-3">
                              Saiba Mais
                          </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-3 rounded-3">
+                         <a href="#" class="btn-fazer-contato-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3">
                              Fazer Contato
                          </a>
                     </div>
@@ -286,21 +346,26 @@
               <div class="carousel-item">
                 <img
                     src="img/bg-slide7-cortada.webp"
-                    class="d-block w-100"
-                    alt="..."
+                    alt="Barckground Carrocel 1"
+                    class="d-none d-lg-block w-100 img-fluid"
+                >
+                <img
+                    src="img/mobile-bg-slide7.webp"
+                    alt="Barckground Carrocel 1"
+                    class="d-block d-lg-none w-100 img-mobile"
                 >
                 <div class="carousel-caption d-flex flex-column text-start justify-content-center">
                     <h2>
                         Treinamentos para Públicos Especiais
                     </h2>
-                    <p class="w-75">
+                    <p>
                         Oferecemos treinamentos especializados para atender as necessidades de públicos específicos, como pessoas com TEA, preparando sua equipe para oferecer um atendimento mais inclusivo e qualificado.
                     </p>
                     <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-3 rounded-3 me-3">
+                         <a href="#" class="btn-saiba-mais-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3 me-3">
                              Saiba Mais
                          </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-3 rounded-3">
+                         <a href="#" class="btn-fazer-contato-banner-inicial py-1 px-1 py-lg-2 px-lg-3 rounded-3">
                              Fazer Contato
                          </a>
                     </div>
@@ -349,9 +414,9 @@
                 </div>
             </div>
 
-            <div class="row d-flex justify-content-center">
+            <div class="row d-none d-lg-flex justify-content-center mb-3">
                 <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                    <div class="content-card-case-sucesso card-animation1 rounded-3 py-3 px-4">
                         <img src="icons/icone1.png" alt="">
                         <h4 class="my-3">
                             Expertise Exclusiva em Saúde
@@ -363,7 +428,7 @@
                 </div>
 
                 <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                    <div class="content-card-case-sucesso card-animation2 rounded-3 py-3 px-4">
                         <img src="icons/icone2.png" alt="">
                         <h4 class="my-3">
                             Soluções Personalizadas
@@ -375,7 +440,7 @@
                 </div>
                 
                 <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                    <div class="content-card-case-sucesso card-animation3 rounded-3 py-3 px-4">
                         <img src="icons/icone3.png" alt="">
                         <h4 class="my-3">
                             Know-how de Experts
@@ -387,7 +452,7 @@
                 </div>
 
                 <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                    <div class="content-card-case-sucesso card-animation4 rounded-3 py-3 px-4">
                         <img src="icons/icone4.png" alt="">
                         <h4 class="my-3">
                             Foco em Resultados
@@ -399,7 +464,7 @@
                 </div>
 
                 <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                    <div class="content-card-case-sucesso card-animation4 rounded-3 py-3 px-4">
                         <img src="icons/icone5.png" alt="">
                         <h4 class="my-3">
                             Capacitação Especializada
@@ -411,11 +476,77 @@
                 </div>
             </div>
 
-            <div class="row d-flex justify-content-center align-items-center">
+            <div class="container-fluid d-block d-lg-none" id="case-sucesso-mobile">
+                <div class="swiper swiper-case-sucesso-mobile">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                                <img src="icons/icone1.png" alt="">
+                                <h4 class="my-3">
+                                    Expertise Exclusiva em Saúde
+                                </h4>
+                                <p>
+                                    Com anos de experiência focados exclusivamente no setor de saúde, a MV Consultoria tem a expertise necessária para entender e solucionar os desafios únicos enfrentados por clínicas, hospitais, operadoras de saúde e seguradoras.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                                <img src="icons/icone2.png" alt="">
+                                <h4 class="my-3">
+                                    Soluções Personalizadas
+                                </h4>
+                                <p>
+                                    A MV Consultoria oferece soluções sob medida para as necessidades da sua empresa, desde o mapeamento de fluxos de trabalho até o planejamento estratégico, tudo feito com um olhar crítico e profundo para otimizar resultados.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                                <img src="icons/icone3.png" alt="">
+                                <h4 class="my-3">
+                                    Know-how de Experts
+                                </h4>
+                                <p>
+                                    Nossa equipe conta com especialistas que trazem know-how técnico para a implementação de melhorias e otimização de processos, aumentando a eficiência e a competitividade no mercado.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                                <img src="icons/icone4.png" alt="">
+                                <h4 class="my-3">
+                                    Foco em Resultados
+                                </h4>
+                                <p>
+                                    Mais do que consultoria, entregamos soluções práticas que geram resultados mensuráveis. Identificamos gargalos e trabalhamos para eliminá-los, melhorando a performance da sua empresa de forma sustentável.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-card-case-sucesso rounded-3 py-3 px-4">
+                                <img src="icons/icone5.png" alt="">
+                                <h4 class="my-3">
+                                    Capacitação Especializada
+                                </h4>
+                                <p>
+                                    Oferecemos treinamentos especializados, inclusive para públicos com necessidades específicas, como TEA, garantindo que sua equipe esteja preparada para oferecer um atendimento inclusivo e de excelência.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            
+            <div class="container text-center mt-4">
                 <a href="#" class="btn-entrar-em-contato-case-sucesso px-3 py-2 rounded-5 text-center">
                     Entrar em Contato
                 </a>
             </div>
+            
         </div>
 
         <!-- 
@@ -436,9 +567,9 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row d-none d-lg-flex">
                     <div class="col-12 col-lg-4 mb-4">
-                        <div class="content-card-servicos rounded-5 pb-4">
+                        <div class="content-card-servicos card-animation1 rounded-5 pb-4">
                             <img src="img/img1-card-servicos.webp" alt="imagem card" class="img-fluid">
                             <div class="txt-card-servicos px-4 pt-3 pb-0">
                                 <h4>
@@ -455,7 +586,7 @@
                     </div>
 
                     <div class="col-12 col-lg-4 mb-4">
-                        <div class="content-card-servicos rounded-5 pb-4">
+                        <div class="content-card-servicos card-animation2 rounded-5 pb-4">
                             <img src="img/img2-card-servicos.webp" alt="imagem card" class="img-fluid">
                             <div class="txt-card-servicos px-4 pt-3 pb-0">
                                 <h4>
@@ -472,7 +603,7 @@
                     </div>
                     
                     <div class="col-12 col-lg-4 mb-4">
-                        <div class="content-card-servicos rounded-5 pb-4">
+                        <div class="content-card-servicos card-animation3 rounded-5 pb-4">
                             <img src="img/img3-card-servicos.webp" alt="imagem card" class="img-fluid">
                             <div class="txt-card-servicos px-4 pt-3 pb-0">
                                 <h4>
@@ -489,7 +620,7 @@
                     </div>
 
                     <div class="col-12 col-lg-4 mb-4">
-                        <div class="content-card-servicos rounded-5 pb-4">
+                        <div class="content-card-servicos card-animation4 rounded-5 pb-4">
                             <img src="img/img4-card-servicos.webp" alt="imagem card" class="img-fluid">
                             <div class="txt-card-servicos px-4 pt-3 pb-0">
                                 <h4>
@@ -506,7 +637,7 @@
                     </div>
 
                     <div class="col-12 col-lg-4 mb-4">
-                        <div class="content-card-servicos rounded-5 pb-4">
+                        <div class="content-card-servicos card-animation5 rounded-5 pb-4">
                             <img src="img/img5-card-servicos.webp" alt="imagem card" class="img-fluid">
                             <div class="txt-card-servicos px-4 pt-3 pb-0">
                                 <h4>
@@ -523,7 +654,7 @@
                     </div>
 
                     <div class="col-12 col-lg-4 mb-4">
-                        <div class="content-card-servicos rounded-5 pb-4">
+                        <div class="content-card-servicos card-animation6 rounded-5 pb-4">
                             <img src="img/img6-card-servicos.webp" alt="imagem card" class="img-fluid">
                             <div class="txt-card-servicos px-4 pt-3 pb-0">
                                 <h4>
@@ -539,6 +670,111 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="container-fluid d-block d-lg-none" id="servicos-mobile">
+                    <div class="swiper swiper-servicos-mobile">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="content-card-servicos rounded-5 pb-4">
+                                    <img src="img/img1-card-servicos.webp" alt="imagem card" class="img-fluid">
+                                    <div class="txt-card-servicos px-4 pt-3 pb-0">
+                                        <h4>
+                                            Consultoria em gestão
+                                        </h4>
+                                        <p>
+                                            Oferecemos soluções personalizadas para otimizar a gestão da sua empresa, focando em eficiência e resultados. Nossa experiência em saúde garante uma visão estratégica adequada ao seu negócio.
+                                        </p>
+                                        <a href="#">
+                                            Entrar em contato >
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-card-servicos rounded-5 pb-4">
+                                    <img src="img/img2-card-servicos.webp" alt="imagem card" class="img-fluid">
+                                    <div class="txt-card-servicos px-4 pt-3 pb-0">
+                                        <h4>
+                                            Otimização de Fluxos de Atividades
+                                        </h4>
+                                        <p>
+                                            Com o know-how de especialistas, reestruturamos os fluxos operacionais para tornar seus processos mais ágeis e eficazes, garantindo maior produtividade e qualidade no atendimento.
+                                        </p>
+                                        <a href="#">
+                                            Entrar em contato >
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-card-servicos rounded-5 pb-4">
+                                    <img src="img/img3-card-servicos.webp" alt="imagem card" class="img-fluid">
+                                    <div class="txt-card-servicos px-4 pt-3 pb-0">
+                                        <h4>
+                                            Identificação e Solução de Bottlenecks
+                                        </h4>
+                                        <p>
+                                            Identificamos gargalos que impactam a performance da sua empresa e oferecemos soluções rápidas e eficazes para melhorar a eficiência operacional. <br><br class="d-inline-block d-xxl-none">
+                                        </p>
+                                        <a href="#">
+                                            Entrar em contato >
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-card-servicos rounded-5 pb-4">
+                                    <img src="img/img4-card-servicos.webp" alt="imagem card" class="img-fluid">
+                                    <div class="txt-card-servicos px-4 pt-3 pb-0">
+                                        <h4>
+                                            Planejamento Estratégico
+                                        </h4>
+                                        <p>
+                                            Desenvolvemos um planejamento estratégico alinhado aos objetivos da sua empresa, focando em crescimento sustentável e na ampliação da sua competitividade no setor de saúde. <br><br>
+                                        </p>
+                                        <a href="#">
+                                            Entrar em contato >
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-card-servicos rounded-5 pb-4">
+                                    <img src="img/img5-card-servicos.webp" alt="imagem card" class="img-fluid">
+                                    <div class="txt-card-servicos px-4 pt-3 pb-0">
+                                        <h4>
+                                            Posicionamento de Mercado  
+                                        </h4>
+                                        <p>
+                                            Ajudamos sua empresa a se posicionar estrategicamente no mercado de saúde, destacando seus diferenciais competitivos e fortalecendo sua presença no setor. <br><br>
+                                        </p>
+                                        <a href="#">
+                                            Entrar em contato >
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-card-servicos rounded-5 pb-4">
+                                    <img src="img/img6-card-servicos.webp" alt="imagem card" class="img-fluid">
+                                    <div class="txt-card-servicos px-4 pt-3 pb-0">
+                                        <h4>
+                                            Treinamentos para Públicos Especiais  
+                                        </h4>
+                                        <p>
+                                            Oferecemos treinamentos especializados para atender as necessidades de públicos específicos, como pessoas com TEA, preparando sua equipe para oferecer um atendimento mais inclusivo.
+                                        </p>
+                                        <a href="#">
+                                            Entrar em contato >
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -547,7 +783,7 @@
                             Perguntas e Respostas
         ==================================================================
         -->
-        <div class="bg-faq">
+        <div class="bg-faq" id="perguntasErespostas">
             <div class="container py-5">
                 <div class="content-titulo-faq d-flex flex-column align-items-center mb-5">
                     <div class="titulos-faq">
@@ -702,7 +938,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 p-0" id="content2-sobre">
+                <div class="col-12 col-lg-6 p-0 d-none d-lg-block" id="content2-sobre">
                     <div class="content2-sobre">
                         <!-- <img src="img/img-sobre.webp" alt="Foto sobre" class="img-fluid"> -->
                     </div>
@@ -729,10 +965,10 @@
                         </h2>
                         <ul class="m-0 p-0">
                             <li><a href="#">> Início</a></li>
-                            <li><a href="#">> Serviços</a></li>
-                            <li><a href="#">> Sobre</a></li>
-                            <li><a href="#">> Perguntas</a></li>
-                            <li><a href="#">> Contato</a></li>
+                            <li><a href="#servicos">> Serviços</a></li>
+                            <li><a href="#Sobre">> Sobre</a></li>
+                            <li><a href="#perguntasErespostas">> Perguntas</a></li>
+                            <li><a href="#footer-menu">> Contato</a></li>
                         </ul>
                     </div>
                 </div>
