@@ -32,14 +32,14 @@
 .content-card-servicos p{
     font-family: var(--fonte-SegoeUi);
     color: #4A5A3F;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }   
 .content-card-servicos a{
     font-family: var(--fonte-SegoeUi);
     text-decoration: none;
     color: #65A30D;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .content-card-servicos a:hover{
     color: #191E15;
