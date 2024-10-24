@@ -1,8 +1,4 @@
-.bg-servicos{
-    background-image: url('../img/bg-servicos.webp');
-    background-position: center;
-    background-size: cover;
-}
+
 
 .content-titulo-servicos{
     color: #F2F4F0;
@@ -10,10 +6,12 @@
 }
 
 .titulo1-servicos{
+    color: #8FA57F;
     font-weight: 600;
     font-size: 1.2rem;;
 }
 .titulo2-servicos{
+    color: #191E15;
     font-weight: 800;
     font-size: 3rem;
     line-height: 1.5rem;
@@ -21,28 +19,36 @@
 
 .content-card-servicos{
     background-color: #F2F4F0;
-    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.content-card-servicos .bi{
+    font-size: 3rem;
+    color: #8FA57F;
+}
+
 .content-card-servicos h4{
     font-family: var(--fonte-Poppins);
     color: #191E15;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 .content-card-servicos p{
     font-family: var(--fonte-SegoeUi);
     color: #4A5A3F;
-    font-size: 1.1rem;
+    font-size: 1.07rem;
     font-weight: 400;
 }   
 .content-card-servicos a{
     font-family: var(--fonte-SegoeUi);
     text-decoration: none;
-    color: #65A30D;
+    background-color: #65A30D;
+    color: white;
     font-size: 1.2rem;
+    transition: 0.3s;
 }
 .content-card-servicos a:hover{
-    color: #191E15;
+    background-color: #191E15;
 }
 
 @media (max-width: 992px){
