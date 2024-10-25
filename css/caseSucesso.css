@@ -1,32 +1,20 @@
 #case-sucesso{
     font-family: var(--fonte-Poppins);
 }
-.titulo1-case-sucesso{
-    font-weight: 600;
-    font-size: 1.2rem;;
-    color: #8FA57F;
-}
-.titulo2-case-sucesso{
-    font-weight: 800;
-    color: #191E15;
-    font-size: 3rem;
-    line-height: 1.5rem;
-}
 
 .content-card-case-sucesso{
     background-color: #F2F4F0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.content-card-case-sucesso h4{
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-.content-card-case-sucesso p{
-    font-size: 1.1rem;
-    font-weight: 400;
+
+.content-titulo-case-sucesso h2{
+    font-family: var(--fonte-Poppins);
+    font-weight: 800;
+    color: #191E15;
+    font-size: 3rem;
 }
 
-.btn-entrar-em-contato-case-sucesso{
+.btn-saiba-mais-case-sucesso{
     text-decoration: none;
     background-color: #65A30D;
     color: white;
@@ -34,7 +22,7 @@
     transition: 0.5s;
 }
 
-.btn-entrar-em-contato-case-sucesso:hover{
+.btn-saiba-mais-case-sucesso:hover{
     background-color: #191E15;
     color: #65A30D;
 } 
