@@ -7,39 +7,93 @@ footer{
             Footer Menu
 ======================================
 */
-.content1-footer-menu li{
+.content2-footer-menu li{
     list-style: none;
 }
 .content1-footer-menu a{
+    font-size: 1rem;
     text-decoration: none;
     font-family: var(--fonte-Poppins);
-    font-weight: 600;
-    color: #96AB87;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s;
+    background-color: #65A30D;
 }
 .content1-footer-menu a:hover{
-    color: #F2F4F0;
+    color: #65A30D;
+    background-color: white;
+}
+.logo-footer img{
+    width: 35%;
 }
 
 
 
-.content2-footer-menu h2, .content3-footer-menu h2, .content1-footer-menu h2{
-    font-family: var(--fonte-Poppins);
+.content2-footer-menu h2, .content3-footer-menu h2, .content1-footer-menu h2, .content4-footer-menu h2{
+    font-family: var(--fonte-BebasNeue);
+    font-size: 1.3rem;
+    font-weight: 500;
     color: white;
-    font-weight: 600;
 }
-.content2-footer-menu p, .content3-footer-menu p{
+.content2-footer-menu p{
     font-family: var(--fonte-SegoeUi);
     color: white
 }
+.content3-footer-menu p{
+    font-size: 1rem;
+    font-family: var(--fonte-SegoeUi);
+    color: #999999;
+}
+.content2-footer-menu a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #65A30D;
+    transition: 0.3s;
+}
+.content2-footer-menu a:hover{
+    color: white;
+}
+
+.content3-footer-menu p{
+    color: #B0C0A5;
+}
+
+.content4-footer-menu p{
+    font-size: 1rem;
+    font-family: var(--fonte-SegoeUi);
+    color: #B0C0A5;
+}
+.content4-footer-menu a{
+    text-decoration: none;
+    color: #65A30D;
+    font-size: 1rem;
+}
+.content4-footer-menu a:hover{
+    color: white;
+}
+
 .redes-footer-menu a{
     text-decoration: none;
     color: white
 }
-.redes-footer-menu a:hover{
-    color: #96AB87;
+.redes-footer-menu a:hover, .content3-footer-menu a:hover{
+    color: #858384;
 }
 
+.content3-footer-menu a{
+    text-decoration: none;
+    color: white;
+}
 
+.bi-map-fill{
+    color: #f35e18;
+}
+
+.linha-footer{
+    height: 1px;
+    width: 80%;
+    background: linear-gradient(to right, transparent, #303030, transparent);
+}
 
 /* 
 =========================================
@@ -48,4 +102,12 @@ footer{
 */
 #footer-copyright p{
     color: #858384;
+    font-size: 1rem;
+}
+#footer-copyright a{
+    font-size: 1rem;
+    color: #B0C0A5;
+}
+#footer-copyright a:hover{
+    color: white;
 }

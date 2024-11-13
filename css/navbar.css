@@ -1,3 +1,12 @@
+.navbar-brand img{
+    width: 65%;
+}
+
+.navbar{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+
 .nav-link{
     color: #96AB87;
     font-size: 1.2rem;
